@@ -75,133 +75,101 @@
     </section>
     <!--Market Table-->
     <section id="sec1" class="bg-slate-950 pt-32">
-      <div class="flex flex-col px-32">
+      <div class="flex flex-col px-24">
         <div class="text-white p-5 px-48">
+          <h2 class="text-4xl font-bold pt-14 pb-6">Market Update</h2>
           <table class="min-w-full">
-            <h2 class="text-4xl font-bold text-white pt-14 pb-6">Market Update</h2>
             <thead class="bg-gradient-to-br from-blue-900 to-fuchsia-600">
               <tr>
-                <th class="rounded-tl-xl px-5 py-4 items-end text-left text-xl font-semibold text-white">
+                <th class="rounded-tl-xl px-5 py-4 text-left text-2xl font-semibold text-white">
                   Coin
                 </th>
-                <th class="px-5 py-4 text-right text-xl font-semibold text-white">
+                <th class="px-5 py-4 text-right text-2xl font-semibold text-white">
                   Price
                 </th>
-                <th class="px-5 py-4 text-right text-xl font-semibold text-white">
+                <th class="px-5 py-4 text-right text-2xl font-semibold text-white">
                   24h Change
                 </th>
-                <th class="rounded-tr-xl px-5 py-4 text-right text-xl font-semibold text-white">
+                <th class="rounded-tr-xl px-5 py-4 text-right text-2xl font-semibold text-white">
                   Market Cap
                 </th>
               </tr>
             </thead>
             <tbody>
-              <!--r1-->
-              <tr class="hover:bg-slate-800">
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 w-10 h-10">
-                      <img class="w-full h-full rounded-full" src="/images/real_bitcoin_logo.webp" alt="Bitcoin" />
-                    </div>
-                    <div class="ml-3">
-                      <p class="text-white whitespace-no-wrap">Bitcoin</p>
-                    </div>
-                  </div>
+              <!-- Row 1 - Bitcoin -->
+              <tr class="hover:bg-slate-800 border-b border-purple-200">
+                <td class="flex items-center space-x-3 px-5 py-5">
+                  <img class="w-10 h-10 rounded-full" src="/images/real_bitcoin_logo.webp" alt="Bitcoin" />
+                  <p class="text-white text-2xl whitespace-no-wrap">Bitcoin</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">$42994.00</p>
+                <td class="px-5 py-5 text-right">
+                  <p class="text-white text-2xl whitespace-no-wrap">$ 42994.00</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                    <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                    <span class="relative">0.15%</span>
+                <td class="px-5 py-5 text-right">
+                  <span class="relative inline-block px-3 py-1 font-semibold text-green-500 leading-tight">
+                    <span aria-hidden="true" class="absolute inset-0 bg-green-950 opacity-50 rounded-full"></span>
+                    <span class="text-2xl relative">0.15%</span>
                   </span>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">
-                    $841,081,482,814
-                  </p>
+                <td class="pr-5 py-5 text-right">
+                  <p class="text-2xl text-white whitespace-no-wrap">$ 841,081,482,814</p>
                 </td>
               </tr>
-              <!--r2-->
-              <tr class="hover:bg-slate-800">
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 w-10 h-10">
-                      <img class="w-full h-full rounded-full" src="/images/real_etherum_logo.webp" alt="Ethereum" />
-                    </div>
-                    <div class="ml-3">
-                      <p class="text-white whitespace-no-wrap">Ethereum</p>
-                    </div>
-                  </div>
+               <!-- Row 2 - Etherum -->
+               <tr class="hover:bg-slate-800 border-b border-purple-200">
+                <td class="flex items-center space-x-3 px-5 py-5">
+                  <img class="w-10 h-10 rounded-full" src="/images/real_etherum_logo.webp" alt="Etherum" />
+                  <p class="text-white text-2xl whitespace-no-wrap">Etherum</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">$42994.00</p>
+                <td class="px-5 py-5 text-right">
+                  <p class="text-white text-2xl whitespace-no-wrap">$ 2183.62</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                    <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                    <span class="relative">0.15%</span>
+                <td class="px-5 py-5 text-right">
+                  <span class="relative inline-block px-3 py-1 font-semibold text-green-500 leading-tight">
+                    <span aria-hidden="true" class="absolute inset-0 bg-green-950 opacity-50 rounded-full"></span>
+                    <span class="text-2xl relative">0.43%</span>
                   </span>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">
-                    $841,081,482,814
-                  </p>
+                <td class="pr-5 py-5 text-right">
+                  <p class="text-2xl text-white whitespace-no-wrap">$ 262,436,482,814</p>
                 </td>
               </tr>
-              <!--r3-->
-              <tr class="hover:bg-slate-800">
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 w-10 h-10">
-                      <img class="w-full h-full rounded-full" src="/images/tether.webp" alt="Tether" />
-                    </div>
-                    <div class="ml-3">
-                      <p class="text-white whitespace-no-wrap">Tether</p>
-                    </div>
-                  </div>
+               <!-- Row 3 - Tether -->
+               <tr class="hover:bg-slate-800 border-b border-purple-200">
+                <td class="flex items-center space-x-3 px-5 py-5">
+                  <img class="w-10 h-10 rounded-full" src="/images/tether.webp" alt="Tether" />
+                  <p class="text-white text-2xl whitespace-no-wrap">Tether</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">$42994.00</p>
+                <td class="px-5 py-5 text-right">
+                  <p class="text-white text-2xl whitespace-no-wrap">$ 1.00</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                    <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                    <span class="relative">0.15%</span>
+                <td class="px-5 py-5 text-right">
+                  <span class="relative inline-block px-3 py-1 font-semibold text-red-500 leading-tight">
+                    <span aria-hidden="true" class="absolute inset-0 bg-red-950 opacity-50 rounded-full"></span>
+                    <span class="text-2xl relative">-2.60%</span>
                   </span>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">
-                    $841,081,482,814
-                  </p>
+                <td class="pr-5 py-5 text-right">
+                  <p class="text-2xl text-white whitespace-no-wrap">$ 90,893,482,814</p>
                 </td>
               </tr>
-              <!--r4-->
-              <tr class="hover:bg-slate-800">
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 w-10 h-10">
-                      <img class="w-full h-full rounded-full" src="/images/bnb.webp" alt="BNB" />
-                    </div>
-                    <div class="ml-3">
-                      <p class="text-white whitespace-no-wrap">BNB</p>
-                    </div>
-                  </div>
+               <!-- Row 4 - Bnb -->
+               <tr class="hover:bg-slate-800 border-b border-purple-200">
+                <td class="flex items-center space-x-3 px-5 py-5">
+                  <img class="w-10 h-10 rounded-full" src="/images/bnb.webp" alt="BNB" />
+                  <p class="text-white text-2xl whitespace-no-wrap">BNB</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">$42994.00</p>
+                <td class="px-5 py-5 text-right">
+                  <p class="text-white text-2xl whitespace-no-wrap">$ 239.03</p>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                    <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                    <span class="relative">0.15%</span>
+                <td class="px-5 py-5 text-right">
+                  <span class="relative inline-block px-3 py-1 font-semibold text-red-500 leading-tight">
+                    <span aria-hidden="true" class="absolute inset-0 bg-red-950 opacity-50 rounded-full"></span>
+                    <span class="text-2xl relative">-1.53%</span>
                   </span>
                 </td>
-                <td class="px-5 py-5 border-b border-purple-200">
-                  <p class="text-white whitespace-no-wrap">
-                    $841,081,482,814
-                  </p>
+                <td class="pr-5 py-5 text-right">
+                  <p class="text-2xl text-white whitespace-no-wrap">$ 36,777,482,814</p>
                 </td>
               </tr>
             </tbody>
@@ -209,6 +177,7 @@
         </div>
       </div>
     </section>
+    
     <!--Why Choose Us-->
     <section id="sec2" class="bg-slate-950 text-white py-20">
       <div class="container mx-auto px-4">
