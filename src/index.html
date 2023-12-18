@@ -14,11 +14,15 @@
     <a href="index.html" class="text-3xl text-white hover:text-gray-500 font-bold">
       COINDO
     </a>
-    <nav class="text-white text-xl font-bold">
-      <a href="#sec0" class="px-2">Home</a>
-      <a href="#sec1" class="px-2">Market</a>
-      <a href="#sec2" class="px-2">Choose Us</a>
-      <a href="#sec3" class="px-2">Join</a>
+    <nav class="text-xl font-bold ">
+      <a href="#sec0"
+        class="px-2 text-white hover:bg-gradient-to-r from-blue-900 to-fuchsia-700 bg-clip-text text-transparent">Home</a>
+      <a href="#sec1"
+        class="px-2 text-white hover:bg-gradient-to-r from-blue-900 to-fuchsia-700 bg-clip-text text-transparent">Market</a>
+      <a href="#sec2"
+        class="px-2 text-white hover:bg-gradient-to-r from-blue-900 to-fuchsia-700 bg-clip-text text-transparent">Choose
+        Us</a>
+      <a href="#sec3" class="px-2 text-white hover:bg-gradient-to-r from-blue-900 to-fuchsia-700 bg-clip-text">Join</a>
     </nav>
     <div class="flex">
       <a href="https://twitter.com/?lang=de" target="_blank">
@@ -71,28 +75,29 @@
       </div>
     </section>
     <!--Market Table-->
-    <section id="sec1" class="bg-slate-950">
+    <section id="sec1" class="bg-slate-950 pt-32">
       <div class="flex flex-col px-32">
-        <h2 class="text-3xl font-bold text-white pt-14">Market Update</h2>
-        <div class="text-white p-5">
-          <table class="min-w-full leading-normal rounded-tl-lg">
+        <div class="text-white p-5 px-48">
+          <table class="min-w-full">
+            <h2 class="text-4xl font-bold text-white pt-14 pb-6">Market Update</h2>
             <thead class="bg-gradient-to-br from-blue-900 to-fuchsia-600">
               <tr>
-                <th class="px-5 py-3 border-b-2 border-white text-left text-2xs font-semibold text-white">
+                <th class="rounded-tl-xl px-5 py-4 items-end text-left text-xl font-semibold text-white">
                   Coin
                 </th>
-                <th class="px-5 py-3 border-b-2 border-white text-right text-2xs font-semibold text-white">
+                <th class="px-5 py-4 text-right text-xl font-semibold text-white">
                   Price
                 </th>
-                <th class="px-5 py-3 border-b-2 border-white text-right text-2xs font-semibold text-white">
+                <th class="px-5 py-4 text-right text-xl font-semibold text-white">
                   24h Change
                 </th>
-                <th class="px-5 py-3 border-b-2 border-white text-right text-2xs font-semibold text-white">
+                <th class="rounded-tr-xl px-5 py-4 text-right text-xl font-semibold text-white">
                   Market Cap
                 </th>
               </tr>
             </thead>
             <tbody>
+              <!--r1-->
               <tr class="hover:bg-slate-800">
                 <td class="px-5 py-5 border-b border-purple-200">
                   <div class="flex items-center">
@@ -101,6 +106,87 @@
                     </div>
                     <div class="ml-3">
                       <p class="text-white whitespace-no-wrap">Bitcoin</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <p class="text-white whitespace-no-wrap">$42994.00</p>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                    <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                    <span class="relative">0.15%</span>
+                  </span>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <p class="text-white whitespace-no-wrap">
+                    $841,081,482,814
+                  </p>
+                </td>
+              </tr>
+              <!--r2-->
+              <tr class="hover:bg-slate-800">
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <div class="flex items-center">
+                    <div class="flex-shrink-0 w-10 h-10">
+                      <img class="w-full h-full rounded-full" src="/images/real_etherum_logo.webp" alt="Ethereum" />
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-white whitespace-no-wrap">Ethereum</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <p class="text-white whitespace-no-wrap">$42994.00</p>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                    <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                    <span class="relative">0.15%</span>
+                  </span>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <p class="text-white whitespace-no-wrap">
+                    $841,081,482,814
+                  </p>
+                </td>
+              </tr>
+              <!--r3-->
+              <tr class="hover:bg-slate-800">
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <div class="flex items-center">
+                    <div class="flex-shrink-0 w-10 h-10">
+                      <img class="w-full h-full rounded-full" src="/images/tether.webp" alt="Tether" />
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-white whitespace-no-wrap">Tether</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <p class="text-white whitespace-no-wrap">$42994.00</p>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                    <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                    <span class="relative">0.15%</span>
+                  </span>
+                </td>
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <p class="text-white whitespace-no-wrap">
+                    $841,081,482,814
+                  </p>
+                </td>
+              </tr>
+              <!--r4-->
+              <tr class="hover:bg-slate-800">
+                <td class="px-5 py-5 border-b border-purple-200">
+                  <div class="flex items-center">
+                    <div class="flex-shrink-0 w-10 h-10">
+                      <img class="w-full h-full rounded-full" src="/images/bnb.webp" alt="BNB" />
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-white whitespace-no-wrap">BNB</p>
                     </div>
                   </div>
                 </td>
@@ -158,65 +244,67 @@
                 </div>
               </div>
             </div>
-          <!--3-->
-          <div class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
-            <div class="flex items-start space-x-10">
-              <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
-                <i class="material-icons">verified</i>
-              </div>
-              <div class="text-white">
-                <h3 class="font-bold text-3xl mb-2">CONFIRM TRANSACTION</h3>
-                <p class="text-lg">Earn by selling your crypto on our marketplace.</p>
+            <!--3-->
+            <div
+              class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+              <div class="flex items-start space-x-10">
+                <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                  <i class="material-icons">verified</i>
+                </div>
+                <div class="text-white">
+                  <h3 class="font-bold text-3xl mb-2">CONFIRM TRANSACTION</h3>
+                  <p class="text-lg">Earn by selling your crypto on our marketplace.</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
           <!--pic mid-->
           <div>
             <img src="/images/choose_coin.webp" alt="Hand Coin" class="w-96 h-auto mx-8">
           </div>
-         <!--sec Col-->
-         <div class="flex flex-col">
-          <!--1-->
-          <div
-            class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
-            <div class="flex items-start space-x-10">
-              <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
-                <i class="material-icons">image</i>
+          <!--sec Col-->
+          <div class="flex flex-col">
+            <!--1-->
+            <div
+              class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+              <div class="flex items-start space-x-10">
+                <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                  <i class="material-icons">image</i>
+                </div>
+                <div class="text-white">
+                  <h3 class="font-bold text-3xl mb-2">RECEIVE YOUR OWN NFTS</h3>
+                  <p class="text-lg">Invest all your crypto at one place on one platform.</p>
+                </div>
               </div>
-              <div class="text-white">
-                <h3 class="font-bold text-3xl mb-2">RECEIVE YOUR OWN NFTS</h3>
-                <p class="text-lg">Invest all your crypto at one place on one platform.</p>
+            </div>
+            <!--2-->
+            <div
+              class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+              <div class="flex items-start space-x-10">
+                <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                  <i class="material-icons">payments</i>
+                </div>
+                <div class="text-white">
+                  <h3 class="font-bold text-3xl mb-2">TAKE A MARKET TO SELL</h3>
+                  <p class="text-lg">Discover, collect the right crypto collections to buy or sell.</p>
+                </div>
+              </div>
+            </div>
+
+            <!--3-->
+            <div
+              class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+              <div class="flex items-start space-x-10">
+                <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                  <i class="material-icons">apps</i>
+                </div>
+                <div class="text-white">
+                  <h3 class="font-bold text-3xl mb-2">DRIVE YOUR COLLECTION</h3>
+                  <p class="text-lg">We make it easy to Discover, Invest and manage.</p>
+                </div>
               </div>
             </div>
           </div>
-          <!--2-->
-          <div
-            class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
-            <div class="flex items-start space-x-10">
-              <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
-                <i class="material-icons">payments</i>
-              </div>
-              <div class="text-white">
-                <h3 class="font-bold text-3xl mb-2">TAKE A MARKET TO SELL</h3>
-                <p class="text-lg">Discover, collect the right crypto collections to buy or sell.</p>
-              </div>
-            </div>
-          </div>
-       
-        <!--3-->
-        <div class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
-          <div class="flex items-start space-x-10">
-            <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
-              <i class="material-icons">apps</i>
-            </div>
-            <div class="text-white">
-              <h3 class="font-bold text-3xl mb-2">DRIVE YOUR COLLECTION</h3>
-              <p class="text-lg">We make it easy to Discover, Invest and manage.</p>
-            </div>
-          </div>
-        </div>
-      </div>
         </div>
       </div>
     </section>
