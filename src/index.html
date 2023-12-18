@@ -6,14 +6,15 @@
   <title>Coindo - Cryptos</title>
   <link rel="stylesheet" href="/dist/output.css" />
   <link rel="icon" type="image" href="/images/favicon.ico" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
   <header class="flex bg-violet-950 items-center justify-between bg-green py-5 px-20">
-    <a href="index.html" class="text-3xl text-white hover:text-gray-500">
+    <a href="index.html" class="text-3xl text-white hover:text-gray-500 font-bold">
       COINDO
     </a>
-    <nav class="text-white text-xl">
+    <nav class="text-white text-xl font-bold">
       <a href="#sec0" class="px-2">Home</a>
       <a href="#sec1" class="px-2">Market</a>
       <a href="#sec2" class="px-2">Choose Us</a>
@@ -126,37 +127,96 @@
     <!--Why Choose Us-->
     <section id="sec2" class="bg-slate-950 text-white py-20">
       <div class="container mx-auto px-4">
-        <h2 class="text-5xl font-bold text-center my-16">WHY <span
+        <h2 class="text-7xl font-bold text-center my-24">WHY <span
             class="bg-gradient-to-r from-blue-900 to-fuchsia-700 bg-clip-text text-transparent">CHOOSE US</span></h2>
-        <div class="grid gap-8 md:grid-cols-4">
-          <div class="flex flex-col items-center text-center">
-            <div class="p-4 bg-darkPurpleLight rounded-lg shadow-lg mb-4">
-              <img src="path_to_wallet_icon" alt="Connect Your Wallet" class="h-12 w-12" />
+        <div class="flex flex-row justify-center items-center">
+          <!--first Col-->
+          <div class="flex flex-col">
+            <!--1-->
+            <div
+              class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+              <div class="flex items-start space-x-10">
+                <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                  <i class="material-icons">wallet</i>
+                </div>
+                <div class="text-white">
+                  <h3 class="font-bold text-3xl mb-2">CONNECT YOUR WALLET</h3>
+                  <p class="text-lg">Use Trust Wallet, Metamask or to connect to the app.</p>
+                </div>
+              </div>
             </div>
-            <h3 class="font-semibold text-lg mb-2">CONNECT YOUR WALLET</h3>
-            <p>Use Trust Wallet, Metamask or to connect to the app.</p>
-          </div>
-          <div class="flex flex-col items-center text-center">
-            <div class="p-4 bg-darkPurpleLight rounded-lg shadow-lg mb-4">
-              <img src="path_to_nft_icon" alt="Receive NFTs" class="h-12 w-12" />
+            <!--2-->
+            <div
+              class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+              <div class="flex items-start space-x-10">
+                <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                  <i class="material-icons">edit</i>
+                </div>
+                <div class="text-white">
+                  <h3 class="font-bold text-3xl mb-2">SELECT YOUR QUANTITY</h3>
+                  <p class="text-lg">Upload your crypto and set a title, description and price.</p>
+                </div>
+              </div>
             </div>
-            <h3 class="font-semibold text-lg mb-2">RECEIVE YOUR OWN NFTS</h3>
-            <p>Invest all your crypto at one place on one platform.</p>
-          </div>
-          <div class="flex flex-col items-center text-center">
-            <div class="p-4 bg-darkPurpleLight rounded-lg shadow-lg mb-4">
-              <img src="path_to_market_icon" alt="Take a Market to Sell" class="h-12 w-12" />
+          <!--3-->
+          <div class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+            <div class="flex items-start space-x-10">
+              <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                <i class="material-icons">verified</i>
+              </div>
+              <div class="text-white">
+                <h3 class="font-bold text-3xl mb-2">CONFIRM TRANSACTION</h3>
+                <p class="text-lg">Earn by selling your crypto on our marketplace.</p>
+              </div>
             </div>
-            <h3 class="font-semibold text-lg mb-2">TAKE A MARKET TO SELL</h3>
-            <p>Discover, collect the right crypto collections to buy or sell.</p>
           </div>
-          <div class="flex flex-col items-center text-center">
-            <div class="p-4 bg-darkPurpleLight rounded-lg shadow-lg mb-4">
-              <img src="path_to_drive_icon" alt="Drive Your Collection" class="h-12 w-12" />
+        </div>
+          <!--pic mid-->
+          <div>
+            <img src="/images/choose_coin.webp" alt="Hand Coin" class="w-96 h-auto mx-8">
+          </div>
+         <!--sec Col-->
+         <div class="flex flex-col">
+          <!--1-->
+          <div
+            class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+            <div class="flex items-start space-x-10">
+              <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                <i class="material-icons">image</i>
+              </div>
+              <div class="text-white">
+                <h3 class="font-bold text-3xl mb-2">RECEIVE YOUR OWN NFTS</h3>
+                <p class="text-lg">Invest all your crypto at one place on one platform.</p>
+              </div>
             </div>
-            <h3 class="font-semibold text-lg mb-2">DRIVE YOUR COLLECTION</h3>
-            <p>Earn by selling your crypto on the market.</p>
           </div>
+          <!--2-->
+          <div
+            class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+            <div class="flex items-start space-x-10">
+              <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+                <i class="material-icons">payments</i>
+              </div>
+              <div class="text-white">
+                <h3 class="font-bold text-3xl mb-2">TAKE A MARKET TO SELL</h3>
+                <p class="text-lg">Discover, collect the right crypto collections to buy or sell.</p>
+              </div>
+            </div>
+          </div>
+       
+        <!--3-->
+        <div class="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg max-w-md py-7 px-7 my-3">
+          <div class="flex items-start space-x-10">
+            <div class="bg-gradient-to-r from-blue-900 to-fuchsia-700 p-4 rounded-xl">
+              <i class="material-icons">apps</i>
+            </div>
+            <div class="text-white">
+              <h3 class="font-bold text-3xl mb-2">DRIVE YOUR COLLECTION</h3>
+              <p class="text-lg">We make it easy to Discover, Invest and manage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
         </div>
       </div>
     </section>
@@ -165,7 +225,7 @@
     <section id="sec3" class="bg-slate-950">
       <div class="flex justify-center">
         <img src="/images/bitcoin.webp" alt="Bitcoin" class="animate-bounce w-16 h-16 my-28 mx-8" />
-        <h1 class="text-8xl font-bold flex flex-col justify-center items-center text-white pt-20">
+        <h1 class="text-9xl font-bold flex flex-col justify-center items-center text-white pt-20">
           JOIN US VIA
           <span class="bg-gradient-to-r from-blue-900 to-fuchsia-700 bg-clip-text text-transparent">
             DISCORD
