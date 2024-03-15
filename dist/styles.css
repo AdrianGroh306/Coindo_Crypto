@@ -1,0 +1,10 @@
+.hover-effect {
+  transition: color 0.3s ease;
+}
+
+.hover-effect:hover {
+  background: linear-gradient(to right, #0000ff, #ff00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
